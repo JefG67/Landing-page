@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landingpage</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <header>
-        <h1>Kucra</h1>
-         <nav>
-            <ul>
+    <header class="header">
+        <div class="container">
+          <div class="logo">
+            Kucra
+           </div>
+           <nav class="navbar">
+            <ul class="menu list">
                 <li><a href="#HOME">HOME</a></li>
                 <li><a href="#FEATURES">FEATURES</a></li>
                 <li><a href="#CLIENT">CLIENT</a></li>
@@ -23,15 +29,21 @@
 
          </nav>
 
-         <div class = "Reseaux">
+         <div class = "Reseaux">        <!-- afficher les bouton sociaux -->
             <a href="">
-                <i class="fa-brands fa-facebook-f"></i>
-            </a>   
+                <svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+
+                
 
 
-        <h1>We are StartUp Creative Kucra Agency</h1>
+        <h1 class="title">We are StartUp Creative Kucra Agency</h1>
 
          <p>Carefully crafted after analysing the needs of different industries and the design achieves a great balance between purpose &  presentation</p>
+
+         <label for="email">
+            <input type="email" name="email" id="email" placeholder="Email">
+          </label>
+
 
          <img src="img/illustration.svg" />
 
