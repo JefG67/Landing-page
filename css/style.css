@@ -1,0 +1,25 @@
+.tete {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin: 10px;
+    font-size: 25px
+}
+
+/****************** illustration **************/
+.textImg {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.illustration {
+
+
+    height: 50%;
+    width: 50%;
+    padding-right: 20px;
+}
