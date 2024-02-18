@@ -106,3 +106,39 @@ margin-bottom: 60px;
     flex-direction: column;
     margin: 20px;
 }
+
+/****************** bouton*****************/
+
+.sub{
+display: flex;
+border-radius: 25px;
+align-items: center;
+
+
+
+
+
+
+
+
+}
+
+.sub input{
+height : 50px;
+width : 400px;
+border-radius: 25px;
+padding-left: 20px;
+
+
+
+}
+
+.sub button{
+    flex-direction:row;
+    height: 45px;
+    width: 140px;
+    text-transform: uppercase;
+    background-color: #1294b8;
+    color: white;
+    border-radius: 25px;
+}
