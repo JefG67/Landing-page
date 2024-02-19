@@ -113,15 +113,14 @@ margin-bottom: 60px;
 display: flex;
 border-radius: 25px;
 align-items: center;
-
-
-
-
-
-
+background-color: #ddebf3;
+position: relative;
+width:400px;
 
 
 }
+
+
 
 .sub input{
 height : 50px;
@@ -134,14 +133,17 @@ padding-left: 20px;
 }
 
 .sub button{
-    flex-direction:row;
+    
     height: 45px;
     width: 140px;
     text-transform: uppercase;
     background-color: #1294b8;
     color: white;
     border-radius: 25px;
-    
+    position: absolute;
+    top:10 ;
+    right:5px;
+
 }
 
 
